@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "paths": {
+      "@app/*": ["../apps/*"],
+      "@app/backend/*": ["apps/backend/*"]
+    }
+  }
+}

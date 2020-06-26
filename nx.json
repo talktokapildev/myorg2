@@ -18,5 +18,17 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "frontend": {
+      "tags": [],
+      "implicitDependencies": ["backend"]
+    },
+    "frontend-e2e": {
+      "tags": [],
+      "implicitDependencies": ["frontend"]
+    },
+    "backend": {
+      "tags": []
+    }
+  }
 }
